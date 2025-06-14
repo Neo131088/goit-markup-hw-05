@@ -160,27 +160,24 @@ max-width: 1440px;
 		margin: 0 auto;
 		margin-bottom: 48px;
 }
-
-.section-button {
-	font-family: "Roboto", sans-serif;
+.btn {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #ffffff;
+	color: #fff;
 	background-color: #4d5ae5;
-	min-width: 169px;
-	height: 56px;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	margin: 0 auto;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
-	display: block;
-	margin: 0 auto;
 	text-align: center;
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-button {
 	display: block;
-	padding: 16px 32px;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+		padding: 16px 32px;
+		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .section-button:hover,
@@ -653,7 +650,7 @@ footer span {
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-icon-input {
+.icon-input {
 	position: absolute;
 	top: 8px;
 	left: 16px;
@@ -667,8 +664,8 @@ footer span {
 	border-color: #4d5ae5;
 }
 
-.modal-input:focus+.icon-icon-input,
-.modal-input:active+.icon-icon-input {
+.modal-input:focus+.icon-input,
+.modal-input:active+.icon-input {
 	fill: #4d5ae5;
 }
 
@@ -757,7 +754,7 @@ footer span {
 	text-decoration-skip-ink: none;
 }
 
-.checkbox-input:checked+.modal-pp .label-span {
+.checkbox1-input:checked+.modal-pp .label-span {
 	background-color: #404bbf;
 	border: none;
 	fill: #f4f4fd;
@@ -785,4 +782,6 @@ footer span {
 .modal-button:focus {
 	background-color: #404bbf;
 	cursor: pointer;
+	transform: translateY(0);
+		box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
