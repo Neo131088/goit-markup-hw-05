@@ -663,8 +663,8 @@ footer span {
 	border-color: #4d5ae5;
 }
 
-.modal-input:focus+.icon-input,
-.modal-input:active+.icon-input {
+.modal-input:focus+.icon-icon-input,
+.modal-input:active+.icon-icon-input {
 	fill: #4d5ae5;
 }
 
